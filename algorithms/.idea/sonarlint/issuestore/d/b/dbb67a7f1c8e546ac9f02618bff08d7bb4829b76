@@ -1,0 +1,20 @@
+
+Q
+java:S3740"/Provide the parametrized type for this generic.(’åÜçşÿÿÿÿ8¶íÂ¹æ.
+^
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(Ü¡è8¶íÂ¹æ.
+Q
+java:S3740"/Provide the parametrized type for this generic.(œëÇıÿÿÿÿ8¶íÂ¹æ.
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ü¡è8¶íÂ¹æ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(“‚€Âüÿÿÿÿ8¶íÂ¹æ.
+Q
+java:S3740"/Provide the parametrized type for this generic.(è‘¶Õüÿÿÿÿ8¶íÂ¹æ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ößºô8¶íÂ¹æ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(úğ±Òøÿÿÿÿ8¶íÂ¹æ.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øÎ‚û
+d
+java:S1192"GDefine a constant instead of duplicating this literal "Time: " 4 times.(ößºô8¶íÂ¹æ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ùî‘õúÿÿÿÿ8¶íÂ¹æ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ã×ßØüÿÿÿÿ8¶íÂ¹æ.
+Q
+java:S3740"/Provide the parametrized type for this generic.(¼‹¦ışÿÿÿÿ8¶íÂ¹æ.
