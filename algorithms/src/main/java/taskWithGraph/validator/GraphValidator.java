@@ -1,4 +1,4 @@
-package taskwithgraph.validator;
+package taskWithGraph.validator;
 
 public class GraphValidator {
     public static boolean isAdjacencyMatrixValid(int[][] adjacencyMatrix) {

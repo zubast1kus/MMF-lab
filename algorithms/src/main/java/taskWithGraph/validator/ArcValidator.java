@@ -1,7 +1,7 @@
-package taskwithgraph.validator;
+package taskWithGraph.validator;
 
-import taskwithgraph.graph.Arc;
-import taskwithgraph.graph.Vertex;
+import taskWithGraph.graph.Arc;
+import taskWithGraph.graph.Vertex;
 
 public class ArcValidator {
     public static boolean isVertexSame(Vertex v1, Vertex v2){

@@ -1,7 +1,7 @@
-package taskwithgraph.main;
+package taskWithGraph.main;
 
-import taskwithgraph.graph.Graph;
-import taskwithgraph.printer.Printer;
+import taskWithGraph.graph.Graph;
+import taskWithGraph.printer.Printer;
 
 import javax.swing.*;
 import java.awt.*;
@@ -15,7 +15,7 @@ public class Main extends JPanel {
         JFrame jframe = new JFrame("Graphics");
 
         jframe.setLocation(750, 150);
-        jframe.setMinimumSize(new Dimension(600, 400));
+        jframe.setMinimumSize(new Dimension(600, 600));
         jframe.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         jframe.getContentPane().add(this);
@@ -70,9 +70,16 @@ public class Main extends JPanel {
         graph1.printGraph();
         Printer.printMatrix(graph1.writeIncidenceMatrix());
 
+        System.out.println("\nAdjacency list:");
+        Printer.printMatrix(graph1.writeAdjacencyList());
+
+        System.out.println("\nEdges list:");
+        Printer.printEdgesArray(graph1.writeArcs());
+
         Main.graph = graph1;
         Main.matrix = graph1.writeAdjacencyMatrix();
 
+        System.out.println("Breadth First Search:");
         Printer.printMatrix(graph1.bfs());
     }
 }

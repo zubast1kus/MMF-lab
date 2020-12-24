@@ -1,4 +1,4 @@
-package taskwithgraph.graph;
+package taskWithGraph.graph;
 
 public class Vertex {
     //Имя вершины

@@ -1,4 +1,6 @@
-package taskwithgraph.printer;
+package taskWithGraph.printer;
+
+import taskWithGraph.graph.Arc;
 
 public class Printer {
     public static void printMatrix(int[][]matrix){
@@ -12,6 +14,12 @@ public class Printer {
     public static void printMatrix(int[]matrix) {
         for (int i = 0; i < matrix.length; i++) {
             System.out.print(matrix[i] + ";");
+        }
+        System.out.println();
+    }
+    public static void printEdgesArray(Arc[] arcs){
+        for (Arc arc : arcs) {
+            System.out.println(arc.toString());
         }
         System.out.println();
     }

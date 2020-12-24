@@ -1,7 +1,7 @@
-package taskwithgraph.graph;
+package taskWithGraph.graph;
 
-import taskwithgraph.validator.ArcValidator;
-import taskwithgraph.validator.GraphValidator;
+import taskWithGraph.validator.ArcValidator;
+import taskWithGraph.validator.GraphValidator;
 
 import java.util.*;
 
@@ -275,7 +275,7 @@ public class Graph {
     public int[][] writeIncidenceMatrix() {
         int[][] incidenceMatrix = new int[V.length][E.length];
 
-        //циел по стобцам
+        //цикл по стобцам
         for (int i = 0; i < incidenceMatrix[0].length; i++) {
             Vertex v1 = E[i].getV1();
             Vertex v2 = E[i].getV2();
@@ -314,6 +314,7 @@ public class Graph {
         return E;
     }
 
+    //Обход в ширину
     public int[] bfs() {
         Vertex[] queue = new Vertex[0];
         int[]isVisited = new int[V.length];
